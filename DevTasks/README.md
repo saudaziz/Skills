@@ -15,8 +15,19 @@ It enforces a strict delivery pattern for `/DevTask` scenarios:
 
 - `DevTasks/SKILL.md`: Skill instructions.
 - `DevTasks/scripts/init-devtask.ps1`: Bootstraps branch + state files.
+- `DevTasks/scripts/install-codex-skill.ps1`: Installs the skill into local Codex skills folder.
 - `DevTasks/templates/`: Reusable templates for logs and planning.
-- `DevTasks/state/`: Runtime artifacts generated per project execution.
+- `DevTasks/state/`: Starter scaffolds required by the workflow and reused during execution.
+
+## Install From GitHub
+
+```powershell
+git clone https://github.com/saudaziz/Skill-DevTasks.git
+cd .\Skill-DevTasks
+powershell -ExecutionPolicy Bypass -File .\DevTasks\scripts\install-codex-skill.ps1
+```
+
+After install, invoke the skill with `$DevTasks` in Codex prompts.
 
 ## Bootstrap
 
