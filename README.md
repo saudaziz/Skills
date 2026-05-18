@@ -11,8 +11,11 @@ This repository is the central home for reusable CLI skill packages.
 ## Current Skills
 
 - `DevTasks`: Structured Architect -> Developer -> QA workflow with acceptance criteria gates, QA baseline capture, and resumable handoff tracking.
+- `session-watcher-bootstrap`: Bootstrap watcher/session logging defaults for single repos, multi-repo roots, and new repo clone/init flows.
 
-See: `DevTasks/README.md` for usage and installation details.
+See:
+- `DevTasks/README.md`
+- `session-watcher-bootstrap/README.md`
 
 ## Repository Structure
 
@@ -26,5 +29,5 @@ Each skill should live in its own top-level folder and include, at minimum:
 
 ## Notes
 
-- This is an evolving repository; `DevTasks` is the first published skill.
+- This is an evolving repository. `DevTasks` was the first published skill.
 - New skills will be added as separate top-level folders following the same pattern.
