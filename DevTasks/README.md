@@ -22,8 +22,8 @@ It enforces a strict delivery pattern for `/DevTask` scenarios:
 ## Install From GitHub
 
 ```powershell
-git clone https://github.com/saudaziz/Skill-DevTasks.git
-cd .\Skill-DevTasks
+git clone https://github.com/saudaziz/Skills.git
+cd .\Skills
 powershell -ExecutionPolicy Bypass -File .\DevTasks\scripts\install-codex-skill.ps1
 ```
 
