@@ -1,0 +1,6 @@
+# Ignore runtime artifacts
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
